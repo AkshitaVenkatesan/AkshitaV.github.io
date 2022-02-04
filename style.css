@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+}
+.container{
+    max-width: 700px;
+    height: 550px;
+    width: 100% ;
+    background: rgb(255, 255, 255);
+    padding: 25px 30px;
+    border-radius: 5px ;
+}
+.container .title{
+    font-family: "serif";
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+.container form user-details{
+    margin: 20px 0 12px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+form .user-details .input-box{
+    margin: 20px 0 12px 0;
+    width: calc(100%/2-20px);
+}
+.user-details .input-box .details{
+    font-family: "Helvetica";
+    font-size: 18px;
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.user-details .input-box input{
+    height: 35px;
+    width: 65%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-family: "Helvetica";
+    font-size: 15px;
+    border-bottom-width: 2px;
+}
+
+.user-details .radio .title{
+    font-family: "Helvetica";
+    font-size: 18px;
+    font-weight: 500;
+}
+.user-details .radio input{
+    margin-left: 20px;
+}
+.user-details .radio .category{
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    text-indent: 5px;
+    font-size: 15px;
+    font-family: "Helvetica";
+}
+form .button{
+    height: 50px;
+    width: 250px;
+    margin: 45px 225px;
+    outline: #ccc;
+}
+form .button input{
+    height: 50px;
+    width: 250px;
+    align-items: center;
+    color: #fff;
+    font-family: "Helvetica";
+    font-size: 18px;
+    background: linear-gradient(135deg, #43cea2, #185a9d );
+}
+form .center {
+    align-items: center;
+  }
